@@ -1,0 +1,39 @@
+.c1{
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(38, 17, 224);
+}
+
+.c2{
+ 
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  color: rgb(6, 239, 247);
+  font-size: 50px;
+}
+
+.c3{
+  font-size: 20px;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+
+
+}
